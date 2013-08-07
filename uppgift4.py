@@ -1,13 +1,11 @@
 
-x = [100,101]
+x = [100,101,1]
 
 for a in range(100,1000,1):
-	xnr=True
-	for j in x[1:]:
-		if xnr==True:
-			x.append(a)
+	x.append(a)
+	print(a)
 z = [100,101]
 for b in range(100,1000,1):
+	z.append(b)
 	print(b)
-		
-print(b*a)
+
