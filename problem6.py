@@ -1,7 +1,7 @@
 
-x = [1,2]
+x = [2]
 
-for i in range(3,50000,2):
+for i in range(3,105000,2):
 	is_prime=True
 	for j in x[1:]:
 		if i%j==0:
@@ -13,7 +13,7 @@ print(x)
 tmp = []
 for i in x:
 	tmp.append(str(i))
-print(tmp)
-print(tmp.find(str2,10001));
+
+print(tmp[10000])
 
 
