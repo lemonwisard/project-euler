@@ -9,12 +9,13 @@ f = 4
 
 z = []
 
+
 for a in range(0,1000):
 
 	new_product = (x[b])*(x[c])*(x[d])*(x[e])*(x[f])
 	z.append(new_product)
 	print (max(z))
-	
+
 	b=b+1
 	c=c+1
 	d=d+1
